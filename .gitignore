@@ -4,3 +4,7 @@
 !*.*
 
 *.out
+.vscode/
+
+# Apple XCode debugging
+**.dSYM/
