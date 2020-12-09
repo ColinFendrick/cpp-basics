@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int max(int, int);
 int defaultMinCheck = 20;
@@ -17,10 +18,11 @@ int main() {
   int c = max(a, b);
   int d = min(a, b);
   int e = min(a);
-  std::cout << "The max of " << a << " and " << b << " is " << c << std::endl;
-  std::cout << "The min of " << a << " and " << b << " is " << d << std::endl;
-  std::cout << "The min of " << a << " and "
-            << "the default second value in min(), " << defaultMinCheck << ", is " << e;
+  cout << "The max of " << a << " and " << b << " is " << c << endl;
+  cout << "The min of " << a << " and " << b << " is " << d << endl;
+  cout << "The min of " << a
+            << " and the default second value in min(), "
+            << defaultMinCheck << ", is " << e;
 
       return 0;
 }
