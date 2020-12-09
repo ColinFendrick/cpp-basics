@@ -1,3 +1,6 @@
+# This removes files with no ending
 *
 !/**/
 !*.*
+
+*.out
