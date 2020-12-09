@@ -5,7 +5,7 @@ using namespace std;
 using std::setw;
 
 
-int * createArray(int (*cb)(int))
+int* createArray(int (*cb)(int))
 {
   static int n[10];
 
